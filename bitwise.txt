@@ -1,0 +1,13 @@
+n&1
+
+n<<1  n>>1
+
+(n>0 &&(n&(n-1))==0  checks the number is power of two or not
+
+n&(-n) : isolates the rightmost 1 bit
+
+n& (n-1) : clear rightmost 1bit
+
+n=n^(1<<i): toogle rightmost birt
+
+if(n&(1<<i)) : checks if the ith bit is set or not
