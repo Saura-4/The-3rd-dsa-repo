@@ -1,0 +1,18 @@
+reverse()v.being(),v.end());
+
+iota(v.beign(),v.end(),start_val):fills the range with sequential increasing values(0,1,2,3,4...)
+
+fill(v.being(),v.end(),val): fill the entier container with the val
+
+unique(v.begin(),v.end()): shifts all duplicate to the end and returns an iterator to the new logical end.
+remove duplicates: v.erase(unique(v.being(),v.end()),v.end()); //array must be sorted first
+
+next_permutation(v.beign(),v.end()): rearranges elements into the next lexicographically greater permutation
+
+max_element(v.beign(),v.end());
+min_element(v.beign(),v.end());
+
+accumulate(v.beign(),v.end()): sums the array , always use  0LL  instead of 0 to avoid overflow
+
+count((v.beign(),v.end(),key);
+
