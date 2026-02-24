@@ -1,0 +1,4 @@
+__builtin_popcount(n): return no. of set bits
+__builtin_clz(n): return no. 0 before first set bit 
+__builtin_ctz(n): return no. of 0 after last set bit
+__builtin_parity(n): 1 if no. of set bit is odd 0 if even
