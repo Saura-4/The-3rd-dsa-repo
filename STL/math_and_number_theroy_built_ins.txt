@@ -1,0 +1,11 @@
+gcd(a,b)
+
+lcm(a,b) return lcm      (a/gcd(a,b))*b  prevents overflow
+
+ceil(x): return smallest integer>=x      (3.2)->4  -3.2->-3
+floor(x):retrun the largest integer <=x  (3.8)->3  -3.2->-4
+round(x):return nearest integer to x     (3.5)->4  2.4->2    //for .5 roundas away from zero
+
+abs(x):
+
+pow(base,exp)
