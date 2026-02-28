@@ -23,6 +23,8 @@ Welcome to my collection of Data Structures and Algorithms (DSA) notes. This rep
 ### 3. Patterns & Observations (`patterns_that_i_notices/`)
 * [**Cube Roots**](patterns_that_i_notices/cube_roots.md)
   _Note: This section contains specific math patterns and observations around cube roots noticed during problem-solving._
+* [**Cyclic Swapping**](patterns_that_i_notices/Cyclic_Swapping.md)
+  _Note: A cool pattern to rotate a matrix or perform array manipulations in-place._
 
 ---
 _Feel free to explore the topics above to aid in your DSA journey!_
