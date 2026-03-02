@@ -53,10 +53,36 @@ Conversions and manipulations between strings, characters, and numbers.
 
 ## String Functions
 
-- **Substring:**
+- **Length vs Size:**
+  They do exactly the same thing.
   ```cpp
-  s.substr(pos, len);
+  s.length();
+  s.size();
   ```
+
+- **Initialize a String of Repeated Characters:**
+  ```cpp
+  string s(10, 'A'); // Creates "AAAAAAAAAA"
+  ```
+
+- **Substring (Start Index + Length!):**
+  _Caution: The second parameter is the **length**, not the ending index._
+  ```cpp
+  s.substr(start_index, length);
+  ```
+
+- **Appending Efficiently:**
+  ```cpp
+  s += 'c'; 
+  // or 
+  s.push_back('c'); // slightly faster for single chars
+  ```
+
+- **Reverse a String In-Place:**
+  ```cpp
+  reverse(s.begin(), s.end());
+  ```
+
 - **Find Substring:**
   ```cpp
   s.find(substring); // Returns starting position, or string::npos if not found
