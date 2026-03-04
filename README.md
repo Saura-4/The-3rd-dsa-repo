@@ -31,6 +31,8 @@ Welcome to my collection of Data Structures and Algorithms (DSA) notes. This rep
   _Note: A cool pattern to rotate a matrix or perform array manipulations in-place._
 * [**Grid to 1D Greedy Swaps**](patterns_that_i_notices/Grid_to_1D_Greedy_Swaps.md)
   _Note: A technique to convert 2D grid criteria into a 1D array to optimize adjacent swaps from O(N^3) to O(N^2)._
+* [**Minimum Non-Zero Product**](patterns_that_i_notices/Minimum_Non_Zero_Product.md)
+  _Note: A pattern for minimizing product or cost when splitting/reducing elements, usually by making one component as small as possible (e.g., 1)._
 
 ---
 _Feel free to explore the topics above to aid in your DSA journey!_
