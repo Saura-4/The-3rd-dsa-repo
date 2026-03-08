@@ -34,5 +34,15 @@ Welcome to my collection of Data Structures and Algorithms (DSA) notes. This rep
 * [**Minimum Non-Zero Product**](patterns_that_i_notices/Minimum_Non_Zero_Product.md)
   _Note: A pattern for minimizing product or cost when splitting/reducing elements, usually by making one component as small as possible (e.g., 1)._
 
+### 4. Questions I Got Stuck On (`questions_i_got_stuck_on/`)
+* [**Find Unique Binary String (Cantor's Diagonalization)**](questions_i_got_stuck_on/Find_Unique_Binary_String.md)
+  _Note: The $i$-th bit should be different to construct a string not present in the array._
+* [**Find the Smallest Balanced Index (Prefix/Suffix Arrays: Space Optimization & Overflow Avoidance)**](questions_i_got_stuck_on/Find_Smallest_Balanced_Index.md)
+  _Note: Opt for $O(1)$ space with reverse traversal over bulky $O(N)$ prefix/suffix arrays. Break early when monotonic functions (like running product vs shrinking sum) cross, mitigating integer overflow risks._
+* [**Minimum Flips to Make Alternating (Sliding Window on Doubled Array)**](questions_i_got_stuck_on/Minimum_Flips_Alternating_String.md)
+  _Note: Double the string `s = s + s` to convert circular shifts into a sliding window problem, dynamically tracking errors against target patterns._
+* [**Minimum K to Reduce Array Within Limit (Binary Search on Answer)**](questions_i_got_stuck_on/Minimum_K_to_Reduce_Array.md)
+  _Note: Avoid precision issues and integer overflow during binary search checks by using manual ceiling division `(a + b - 1) / b` and proper `1LL` and `(long long)` casting._
+
 ---
 _Feel free to explore the topics above to aid in your DSA journey!_
